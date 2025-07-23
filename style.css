@@ -117,12 +117,14 @@ ul{
     color: #FF136F;
     font-size: 41px;
     font-weight: 400;
+    margin-top: 10px;
 }
 
 .banner button{
     display: flex;
     gap: 10px;
     align-items: center;
+    margin-top: 20px;
 }
 
 .banner-img img{
@@ -130,3 +132,59 @@ ul{
 }
 
 /* ===============banner section end=============== */
+
+
+
+/* ===============categories section start=============== */
+.categories{
+    margin-bottom: 64px;
+}
+
+.categories-heading{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.categories-item-wrapper{
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+}
+.categories-item{
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 46px;
+    gap: 76px;
+    border-radius: 10px;
+}
+
+.categories-name{
+    font-size: 36px;
+    font-weight: 400px;
+    color: white;
+}
+
+.categories-img img{
+    width: 70px;
+}
+
+.categories-item:nth-child(1){
+    background:linear-gradient(152deg, #FF9C35, #FFD019);
+}
+.categories-item:nth-child(2){
+    background:linear-gradient(180deg, #FF589B , #FF136F);
+}
+.categories-item:nth-child(3){
+    background:linear-gradient(170deg, #4289FF, #3F07F8);
+}
+
+
+
+.categories-name{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+
+/* ===============categories section end=============== */
